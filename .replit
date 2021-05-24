@@ -1,1 +1,1 @@
-run="gcc main.c test.c pi.c -o main -lm && ./main"
+run="bash main.sh"
