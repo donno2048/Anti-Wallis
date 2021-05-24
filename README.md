@@ -75,8 +75,10 @@ sudo apt install nodejs -y
 
 #### Run
 
+(`--experimental-modules` is only needed for node version <= `12`)
+
 ```sh
-node js/main.mjs
+node --experimental-modules js/main.mjs
 ```
 
 </details>
@@ -97,3 +99,10 @@ go run go/main.go go/pi.go go/test.go
 ```
 
 </details>
+
+## Note
+
+If you're wondering why so few digits of pi take so much time to evaluate note these two facts:
+
+1. To benchmark the functions I'm running them `100` times
+1. Not all the evaluated digits are being printed, simply because of the language itself or the properties of string formating in it

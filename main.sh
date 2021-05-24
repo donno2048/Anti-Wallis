@@ -13,7 +13,7 @@ do
 			exit
             ;;
         "JavaScript")
-            node js/main.mjs
+            node --experimental-modules js/main.mjs
 			exit
             ;;
         "Go")
