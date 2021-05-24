@@ -8,6 +8,8 @@ As you have probably figured from the name of this repo I'm not the biggest fan 
 
 This repo is meant to show how horrible the Wallis function is and to ask every developer in the world to demolish it.
 
+I implemented a better function to calculate pi, the code in the repo is running the function, and comparing it to the Wallis function.
+
 ## Usage
 
 ###### Instead of going through all this trouble you can just view the [Online Demo](https://replit.com/@donno2048/Anti-wallis) (press the "Run" button if needed)
