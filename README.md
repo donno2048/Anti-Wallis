@@ -102,6 +102,31 @@ go run go/main.go go/pi.go go/test.go
 
 </details>
 
+<details>
+<summary>Rust</summary>
+
+#### Install the requirements (just the Rust compiler)
+
+```sh
+sudo apt update
+sudo apt install rustc -y
+```
+
+#### Compile
+
+```sh
+rustc rust/main.rs
+```
+
+#### Run
+
+```sh
+./main
+```
+
+</details>
+
+
 ## Note
 
 If you're wondering why so few digits of pi take so much time to evaluate note these two facts:

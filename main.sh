@@ -1,6 +1,6 @@
 PS3='Please enter your choice: '
 echo "You should run the C version, it has the fastest Wallis function..."
-options=("C" "Python" "JavaScript" "Go")
+options=("C" "Python" "JavaScript" "Rust" "Go")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -14,6 +14,11 @@ do
             ;;
         "JavaScript")
             node --experimental-modules js/main.mjs
+			exit
+            ;;
+        "Rust")
+            rustc rust/main.rs
+			./main
 			exit
             ;;
         "Go")
